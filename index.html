@@ -5,15 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        div {
+        width: 23%; 
+        float: left; 
+        margin-left: 20%;
+        margin-top: 10%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        h1 {
+         font-size: 120px;
+        margin-top: 0; 
+        color:darkgoldenrod;
+        margin-bottom: 0; 
+        }
+        p {
+            font-size:36px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 20px;
+         text-transform: uppercase;"
+        }
+        a {
+        display:inline-block;
+        color:blue;
+        text-decoration: none; 
+        border: 3px solid;
+        font-size: 20px; 
+        padding: 10px;
+        padding-left:40px;
+        padding-right: 40px; 
+        }
+        img{
+        width: 32%;
+        float: left;
+        margin-left: 5%;
+        margin-top: 7%;
+        
+        }
+    </style>
 </head>
 
 <body>
-    <div style="background-color: rgb(183, 98, 202); width: 23%; float: left; margin-left: 20%; margin-top: 10%;font-family: Arial;">
-        <h1 style="font-size: 120px; margin-top: 0; color:darkgoldenrod; margin-bottom: 0;">404</h1>
-        <p style="font-size:36px;font-weight: bold; margin-top: 0; margin-bottom: 20px;text-transform: uppercase;">Page not found</p>
-        <a style="display:inline-block; color:blue; text-decoration: none; border: 1px solid; border:10px;color:crimson  " href="#">Go to home</a>
+    <div>
+        <h1>404</h1>
+        <p >Page not found</p>
+        <a href="#">Go to home</a>
     </div>
-    <img style=" width: 32%; float: left; margin-left: 5%; margin-top: 7%;" src="./img/ufo.jpg" alt="Skraidanti lekste kuri vagia zmoniu daiktus">
+    <img src="./img/ufo.jpg" alt="Skraidanti lekste kuri vagia zmoniu daiktus">
 </body>
 
 </html>
@@ -45,6 +88,14 @@ float : right;
 width: 100 % 
 height: 100%
 
+padding : 40px;   vidinis atstumas(issiputimas) tarp elemento sienos ir jo vidinio turinio
+pading-top : 5%
+padding-right : 5%
+padding-left : 5%
+padding-bottom : 5%
+
+
+margin : 40px;   atsistumimas nuo aplinkiniu elementu
 margin-top : 5% (5% -tevinio elemento plocio, tevas yra body)
 margin-right : 5%
 margin-left : 5%
@@ -61,5 +112,13 @@ kompakstiskos nuotraukos iskirpimas:
 solid- vientisa linija
 dashed- bruksniuota linija
 dotted - taskuotos linijos
+block- pasikeicia plotis
+
+kampu apvalinimas: 
+
+box-sizing: border-box; - panaudoti visiem projektam :
+  * {
+            box-sizing: border-box;
+        }
 
 -->

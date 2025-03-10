@@ -60,7 +60,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://evelinabum.github.io/54-grupe-ufo/)
+Evelina: [Github](https://evelinabum.github.io/54-grupe-ufo/)
 
 ## ⚠️ License
 
